@@ -1,0 +1,78 @@
+.logo {
+  margin: 0 6.875%;
+
+  max-width: 184px;
+  max-height: 36px;
+}
+
+/* .menu_bar {
+  display: block;
+} */
+
+/* @media screen and (max-width:991px) {
+  .menu_bar {
+    display: none;
+  }
+} */
+.hidden {
+  display: none !important;
+}
+
+@media screen and (max-width:1024px) {
+  .logo {
+    margin: 0 0.825%;
+  }
+
+  .menu_bar {
+    justify-content: flex-start;
+  }
+}
+
+@media screen and (max-width:992px) {
+  .logo {
+    margin: 0 0.5%;
+  }
+
+  .menu_bar a {
+    font-size: 14px;
+    margin: 0px 10px;
+  }
+}
+
+@media screen and (max-width:640px) {
+  .menu_bar {
+    position: absolute;
+    top: 81px;
+    width: 100vw;
+    background: linear-gradient(254.52deg, #FEAB61 -5.55%, #FC7618 95.02%);
+    z-index: 999;
+    display: grid;
+    justify-content: flex-start;
+    border-radius: 12px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    padding: 14px 0px;
+  }
+
+  .hamburge_menu {
+    font-size: 31px;
+    fill: #53668D;
+  }
+
+  .menu_bar_open {
+    display: none;
+  }
+
+  .logo {
+    margin: 0 6.875%;
+  }
+
+  .menu_bar a {
+    font-size: 16px;
+    margin: 0px 27px;
+  }
+
+  .mobileLogo img{
+    width: 130px !important;
+    height: 27px !important;
+  }
+}

@@ -1,0 +1,138 @@
+.containerStyle {
+  align-items: flex-start;
+}
+
+.containerStyle h2 {
+  width: 192px;
+}
+
+.imageBgSection {
+  /* width: 855px;
+  height: 877px; */
+
+  width: 44.5132vw;
+  height: 45.6770vw;
+
+  /* background: linear-gradient(76.54deg, #FFF7EA -0.16%, #FAE7FA 98.8%); */
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+
+  position: relative;
+}
+
+.imageWrapper {
+  width: calc((479/1920) * 100vw);
+  height: calc((1030/1920) * 100vw);
+
+  position: absolute;
+  left: 50%;
+  top: 55%;
+  transform: translate(-50%, -50%);
+}
+
+.imageWrapper img {
+  width: 100%;
+  height: 98%;
+}
+
+.volumeText {
+  color: #141315;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+
+.tasteSummaryText {
+  color: #6A83DB;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+
+.buttonStyle {
+  margin-top: 60px;
+}
+
+@media only screen and (max-width: 1440px) {
+  .containerDescription div {
+   width: 460px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .containerDescription div {
+   width: 394px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .containerDescription div {
+   width: 360px;
+  }
+}
+
+
+@media only screen and (max-width: 960px) {
+  .containerDescription div {
+   width: 314px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+
+  .imageWrapper img {
+    width: auto;
+    margin: 0px auto;
+  }
+
+  .imageMainBgSection {
+    flex-direction: column !important;
+  }
+
+  .containerDescription {
+    padding-left: 0px !important;
+  }
+
+  .containerStyle {
+    align-items: center;
+  }
+
+  .containerStyle h2 {
+    width: auto;
+  }
+
+  .containerStyle hr {
+    width: 56px;
+    margin-top: 36px;
+    margin-bottom: 24px;
+  }
+
+  .containerStyle div {
+    text-align: center !important;
+  }
+
+  .imageBgSection {
+    width: calc(100vw - 60px);
+    height: 483px;
+  }
+
+  .imageWrapper {
+    width: 100%;
+    height: 560px;
+    top: 54%;
+  }
+
+  .tasteSummaryText {
+    font-size: 24px;
+    margin-bottom: 4px;
+  }
+
+  .volumeText {
+    font-size: 24px;
+  }
+}

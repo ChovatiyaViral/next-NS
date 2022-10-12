@@ -1,0 +1,47 @@
+
+  .title{
+    font-family: 'Roboto Condensed';
+    font-style: 'normal';
+    font-weight: 700;
+    color: #6A83DB;
+    text-align: 'center';
+    font-size:40;
+  }
+
+  .title1 {
+    font-family: 'Roboto Condensed';
+    font-style: 'normal';
+    font-weight: 700;
+    text-align: 'center';
+    font-size:40;
+    color: #FC7618;
+  }
+  .paragraph{
+    color: #878787;
+    font-family: 'Montserrat';
+    font-style: 'normal';
+    font-weight: 300;
+    font-size: 18;
+    width:534;
+    height:127;
+    text-align:'center';
+  }
+  .divider{
+    border: 2px solid #8B7D75;
+    width: 56;
+    margin-bottom:48;
+    margin-top:33;
+  }
+  .subtitle2{
+    color: orange;
+  }
+  .subtitle1{
+    margin-bottom:25;
+    color: #363755;
+    font-family: 'Montserrat';
+    font-style: 'normal';
+    font-weight: 400;
+    font-size: 18;
+    text-align:'center';
+    text-transform:'capitalize';
+  }

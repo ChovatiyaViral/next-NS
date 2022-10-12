@@ -1,0 +1,116 @@
+.suggestionBg {
+    background-image: url(/assets/images/suggestions-bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top 120px center;
+
+    width: 100%;
+    height: 100%;
+}
+
+.suggestionCaskedBg {
+    background-image: url(/assets/images/casked-strength-suggestions-bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top 120px center;
+
+    width: 100%;
+    height: 100%;
+}
+
+.suggestionBorder {
+    border: 2px solid #EAB755;
+
+    margin-bottom: 2rem;
+    padding: calc((63/1920) * 100vh);
+
+    width: calc((884/1920) * 100vw);
+    height: 100%;
+}
+
+.suggestionImage {
+    width: calc((252/1920) * 100vw);
+    height: calc((571/1920) * 100vw);
+
+    position: relative;
+
+    margin-bottom: 4rem;
+}
+
+
+.volumeText {
+    color: #EAB755;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 90%;
+    text-align: center;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    margin-bottom: 1.5rem;
+}
+
+.tasteSummaryText {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 90%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #EAB755;
+}
+
+.buttonStyle {
+    background: #FEAF66;
+    border-radius: 33px;
+
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+
+    color: white;
+}
+
+@media only screen and (max-width: 768px) {
+    .suggestionDescrption h4 {
+        font-size: 12.5px;
+        margin-bottom: 14px;
+        line-height: 15px;
+    }
+
+    .suggestionBorder {
+        width: initial;
+        max-width: 384px;
+        height: 644px;
+        padding: 55px 50px;
+        display: block !important;
+        margin-bottom: 0px;
+        text-align: center !important;
+    }
+
+    .suggestionImage {
+        width: 158px;
+        height: 359px;
+        margin: 0px auto 32px;
+    }
+
+    .volumeText {
+        font-size: 12px;
+        line-height: 15px;
+        margin-bottom: 14px;
+    }
+
+    .buttonStyle {
+        margin-top: 24px;
+    }
+}
+
+
+@media only screen and (max-width: 420px) {
+    .suggestionBorder {
+        padding: 15px;
+        max-width: 278px;
+    }
+
+    .btnDiscoverLink {
+        margin: 0px;
+    }
+}

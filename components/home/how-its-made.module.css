@@ -1,0 +1,133 @@
+.howitsmade {
+  background-image: url('/assets/images/how-it-made-bg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.leftCol {
+  background-image: url(/assets/images/bottle-ingredients.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+
+  width: 100%;
+  height: 100%;
+}
+
+.vectorBg4 svg {
+  width: calc((1337/1920)*100vw);
+  height: calc((947/1920)*100vw);
+  margin-bottom: -51.4rem;
+
+}
+
+
+@media only screen and (max-width: 1536px) {
+  .vectorBg4 svg {
+    width: calc((1337/1920)*100vw);
+    height: calc((947/1920)*100vw);
+    margin-bottom: -41.2rem;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .vectorBg4 svg {
+    margin-bottom: -32.2rem;
+    margin-left: -3rem;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .how_it_made_description div {
+    width: 40vw !important;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .how_it_made_description {
+    margin-top: -2rem;
+  }
+
+  .how_it_made_description div {
+    font-size: 14px;
+    margin-top: 10px;
+    line-height: 20px;
+  }
+
+  .how_it_made_description h2 {
+    font-size: 50px;
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+  .vectorBg4 svg {
+    display: none;
+  }
+
+  .how_it_made_description{
+    margin-top: 0px;
+  }
+
+  .how_it_made_description div {
+    font-size: 16px;
+    text-align: center !important;
+    margin-top: 55px;
+    line-height: 29px;
+    width: 71vw !important;
+    margin: 0px auto 25px;
+  }
+
+  .how_it_made_description h2 {
+    font-size: 34px;
+  }
+
+  .hasLearnMore {
+    margin-bottom: 8rem;
+  }
+
+  .howitsmade {
+    background: linear-gradient(72.39deg, #CBD6E2 4.19%, #EFF2F6 25.48%, #F8FBFF 46.78%, #F7F5FF 79.53%, #FFFFFF 92.82%, #FAF8FF 105.74%) !important;
+    height: 56rem;
+    margin-bottom: -11rem;
+  }
+
+  .Howitsmade2 {
+    display: block;
+  }
+
+  .howitsmade3 {
+    display: grid;
+  }
+
+  .Howitsmade2 .leftCol {
+    margin-top: 0rem;
+    height: 32rem;
+  }
+}
+
+
+
+@media only screen and (max-width: 640px) {
+  .how_it_made_description div {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .howitsmade {
+    height: 736px;
+  }
+
+  .Howitsmade2 .leftCol {
+    margin-top: -3rem;
+    height: 26rem;
+  }
+}
+
+
+@media only screen and (max-width: 420px) {
+  .howitsmade {
+    height: 53rem;
+  }
+}

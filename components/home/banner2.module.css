@@ -1,0 +1,39 @@
+.banner2 {
+  background-image: url(/img6.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+
+  width: 100% !important;
+  height: calc((100vw - 4vw) / 3.3);
+
+  margin: 25px 0;
+}
+
+.banner2__title {
+  color: #fff;
+  font-family: Roboto Condensed;
+  font-size: 57px;
+  font-weight: 700;
+  line-height: 62px;
+  letter-spacing: 0.01em;
+}
+
+@media only screen and (max-width: 768px) {
+  .banner2__title {
+    font-size: 30px;
+    margin: 0px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .banner2 {
+    background-image: url(/img6_mobile.png);
+    margin: 20px 0px 0px;
+    height: 368px;
+  }
+
+  .banner2Bg {
+    margin: 0px;
+  }
+}

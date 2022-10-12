@@ -1,0 +1,53 @@
+.sliderWrapper {
+  height: calc(((100vw - 4vw) / 2.5934) + 6.9vw);
+}
+
+.slide {
+  /* width: 100% !important; */
+  height: calc((100vw - 4vw) / 2.5934);
+}
+
+.centerBottleImgWrapper {
+  /* max-width: 292px; */
+  max-width: 18%;
+
+  /* height: 622px; */
+  /* height: calc((100vw - 4vw) / 2.5934); */
+}
+
+.sliderDesktopImg {
+  display: block;
+}
+
+.slide img {
+  height: 100%;
+}
+
+.sliderMobileImg {
+  display: none;
+}
+
+@media screen and (max-width:640px) {
+
+  .slide,
+  .sliderWrapper,
+  .banner_img {
+    height: 641px;
+  }
+
+  .sliderDesktopImg {
+    display: none;
+  }
+
+  .sliderMobileImg {
+    display: block;
+  }
+
+  .centerBottleImgWrapper {
+    max-width: 207px;
+  }
+
+  .centerBottleDiv {
+    bottom: -94px !important;
+  }
+}

@@ -1,0 +1,122 @@
+.columnFlex {
+    display: 'flex';
+    flex-direction: 'column';
+    align-items: 'center';
+    justify-content: 'space-evenly';
+}
+
+.ftBG {
+    background: #363755;
+    height: 639;
+}
+
+.ftitle {
+    font-family: 'Montserrat';
+    font-style: 'normal';
+    color: #fff;
+    text-align: 'center';
+    font-weight: 400;
+    font-size: 27;
+    text-transform: 'uppercase';
+}
+
+.ftitle1 {
+    font-family: 'Montserrat';
+    font-style: 'normal';
+    color: #363755;
+    text-align: 'center';
+    font-weight: 300;
+    font-size: 19;
+    text-transform: 'uppercase';
+    margin-top: 21;
+}
+
+.fsubtitle {
+    font-family: 'Montserrat';
+    font-style: 'normal';
+    color:#fff;
+    text-align: 'center';
+    font-weight: 400;
+    font-size: 22;
+}
+
+.inputStyle {
+    width: 314;
+    height: 54;
+    border: 1px solid #FEAF66;
+    background: #363755;
+    color: #fff;
+    margin: '0px 23px';
+    /* "&:focus": {
+            color:'#fff',
+            border: '1px solid #FEAF66',
+          }, */
+}
+
+.inputStyle1 {
+    width: 1020;
+    height: 137;
+    border: 1px solid #FEAF66;
+    background: #363755;
+    color: #fff;
+    resize: 'none';
+    /* "&:focus": {
+            color:'#fff',
+            border: '1px solid #FEAF66',
+          }, */
+}
+
+.btnOutlined {
+    height: 49;
+    width: 172;
+    padding: "11px 6px";
+    text-transform: 'uppercase';
+    font-family: "Montserrat";
+    font-weight: 600;
+    border-radius: 0;
+    font-size: 19;
+    color: #fc7618;
+    background: #fff;
+    border: 1px solid #fc7618;
+    /* "&:active,&:hover": {
+            color: '#fc7618',
+            background: "#fff",
+            border: '1px solid #fc7618',
+            outline: "none",
+        }, */
+}
+
+.link {
+    color: #363755;
+    font-family: 'Montserrat';
+    font-style: 'normal';
+    font-weight: 600;
+    font-size: 18;
+    text-decoration: "none";
+    margin: "0 27px";
+
+    /* "&:hover": {
+          color: '#363755',
+        }, */
+}
+
+.ftTxt {
+    font-family: 'Montserrat';
+    font-style: 'normal';
+    color: #363755;
+    font-weight: 300;
+    font-size: 28;
+}
+
+.ftduncan {
+    margin-top: 20;
+}
+
+.iconStyle {
+    font-size: 37;
+    color: #363755;
+    margin: '0px 10px';
+    border: 1px solid #363755;
+    border-radius: 18;
+    padding: 5;
+}

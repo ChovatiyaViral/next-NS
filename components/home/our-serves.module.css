@@ -1,0 +1,261 @@
+.our_serves {
+  margin-bottom: 100px;
+}
+
+.our_servers__item:hover {
+  cursor: pointer;
+}
+
+.our_servers__item:hover .colDiv {
+  display: flex;
+}
+
+.our_servers__item .colDiv {
+  background: rgba(255, 255, 255, 0.71);
+  backdrop-filter: blur(10px);
+
+  display: none;
+  transition: all 1s ease-in-out;
+
+  width: calc((491/1920) * 100vw);
+  height: calc((547.55/1920)* 100vw);
+
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.colDiv h5 {
+  /* position: absolute;
+  width: 117.38px; */
+  height: 13.72px;
+  /* left: 135px;
+  top: 2rem;
+  padding-top: 2rem; */
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 113%;
+  text-align: center;
+  text-transform: capitalize;
+  color: #6A83DB;
+}
+
+.colDiv h1 {
+  width: 296.19px;
+  height: 48.56px;
+  padding-bottom: 50px;
+  /* padding-top: 25px; */
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 80%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.txtList {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  letter-spacing: -0.04em;
+  color: #6A83DB;
+  position: relative;
+  width: 157.27px;
+}
+
+.singleTXT {
+  width: 267.8px;
+  /* height: 50.94px; */
+  padding-top: 2rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  list-style: disc;
+  line-height: 113%;
+  text-align: center;
+  text-transform: capitalize;
+  color: #6A83DB;
+
+}
+
+.ourservesbg {
+  background-image: url(/assets/images/leaf-our-servers-section-right.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+.ourservesbg2 {
+  background-image: url(/assets/images/leaf-our-servers-section-left.png);
+  background-repeat: no-repeat;
+  background-position: left -1rem top 0rem;
+}
+
+.Saffron_ourservesbg {
+  background-image: url(/assets/images/leaf-our-servers-section-right.png);
+  background-repeat: no-repeat;
+  background-position: top 68px right;
+}
+
+.Casked_ourservesbg {
+  background-image: url(/assets/images/orange-leaf-our-serves-right.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+
+@media only screen and (max-width: 1200px) {
+  .OurServesImg {
+    margin-top: -2rem;
+  }
+
+  .colDiv h5 {
+    height: 13.72px;
+    font-size: 12px;
+    margin-bottom: 3px !important;
+  }
+
+  .colDiv h1 {
+    height: 15.56px;
+    padding-bottom: 15px !important;
+    font-size: 20px;
+  }
+
+  .txtList {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .colDiv h5 {
+    height: 13.72px;
+    font-size: 10px;
+    margin-bottom: 3px !important;
+  }
+
+  .colDiv h1 {
+    height: 15.56px;
+    padding-bottom: 15px !important;
+    font-size: 18px;
+    width: 150px;
+  }
+
+  .txtList {
+    font-size: 10px;
+    width: 122px;
+  }
+}
+
+.ourGinOurServiceSectionMobile {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .ourGinOurServiceSection {
+    display: none !important;
+  }
+
+  .ourGinOurServiceSectionMobile {
+    display: block;
+  }
+
+  .ourGinColDiv {
+    height: 378px;
+    background: linear-gradient(76.54deg, #FFF7EA -0.16%, #FAE7FA 98.8%);
+    border: 1px solid #6A83DB;
+  }
+
+  .ourGinColDiv.colDiv h5 {
+    font-size: 11px;
+    line-height: 113%;
+    margin-bottom: 10px !important;
+    height: auto;
+  }
+
+  .ourGinColDiv.colDiv h1 {
+    font-size: 26px;
+    line-height: 80%;
+    margin-bottom: 15px;
+    height: auto;
+  }
+
+  .ourGinColDiv .txtList {
+    font-size: 12px;
+    line-height: 162.5%;
+    width: 100%;
+  }
+
+  .ourGinMobileImg,
+  .ourGinMobileImg span {
+    height: 450px !important;
+  }
+
+  .colDiv h5 {
+    height: 8px;
+    font-size: 8px;
+    margin-bottom: 4px;
+  }
+
+  .colDiv h1 {
+    font-size: 14px;
+    padding-bottom: 12px;
+    margin-bottom: 4px;
+    height: 8px;
+    width: auto;
+  }
+
+  .txtList {
+    font-size: 8px;
+    width: 60px;
+  }
+
+  .our_servers__item .colDiv {
+    width: 95%;
+    height: 90%;
+    padding: 10px 0px;
+  }
+
+  .Saffron_ourservesbg {
+    margin-top: -150px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .view_all_btn {
+    margin-top: -24px;
+  }
+
+  .ourservesbg2 {
+    background-position: left 0rem top 0rem;
+    background-size: 70px;
+  }
+
+  .ourservesbg {
+    background-size: 50px;
+  }
+}
+
+@media only screen and (max-width: 525px) {
+  .OurServesImg {
+    grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
+  }
+
+  .our_servers__item {
+    width: 200px !important;
+    height: 200px;
+    margin: 0px auto;
+  }
+}
+
+
+@media only screen and (max-width: 420px) {
+  .our_servers__item {
+    width: 171px !important;
+    height: 200px;
+  }
+}

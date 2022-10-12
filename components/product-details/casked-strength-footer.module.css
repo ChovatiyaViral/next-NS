@@ -1,0 +1,118 @@
+.horizontalLine2 {
+    border: 2px solid #554A36;
+    width: 100%;
+    background: #554A36;
+  }
+  
+  .ftBG {
+    background: #554736;
+    height: 639px;
+  }
+  
+  .ftxt {
+    color: #B8B8B8;
+  }
+  
+  .ftitle {
+    font-family: Montserrat;
+    font-style: normal;
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+    font-size: 27px;
+    text-transform: uppercase;
+  }
+  
+  .ftitle1 {
+    font-family: Montserrat;
+    font-style: normal;
+    color: #554736;
+    text-align: center;
+    font-weight: 300;
+    font-size: 19px;
+    text-transform: uppercase;
+    margin-top: 21px;
+  }
+  
+  .fsubtitle {
+    font-family: Montserrat;
+    font-style: normal;
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+    font-size: 22px;
+  }
+  
+  .inputStyle {
+    width: 314px;
+    height: 54px;
+    border: 1px solid #FEAF66;
+    background: #554736;
+    color: #fff;
+    margin: 0px 23px;
+    /* "&:focus": {
+            color:'#fff',
+            border: '1px solid #FEAF66',
+          }, */
+  }
+  
+  .inputStyle1 {
+    width: 1020px;
+    height: 137px;
+    border: 1px solid #FEAF66;
+    background: #554736;
+    color: #fff;
+    resize: none;
+    /* "&:focus": {
+            color:'#fff',
+            border: '1px solid #FEAF66',
+          }, */
+  }
+  
+  .btnOutlined2 {
+    height: 49px;
+    width: 172px;
+    padding: 11px 6px;
+  
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0.05em;
+    text-align: center;
+  
+    color: #FEAF66;
+  
+    background: #fff;
+    border: 1px solid #FEAF66;
+  
+    /* "&:active,&:hover": {
+            color: '#fc7618',
+            background: "#fff",
+            border: '1px solid #fc7618',
+            outline: "none",
+        }, */
+  }
+  
+  
+  .ftTxt {
+    font-family: Montserrat;
+    font-style: normal;
+    color: #554A36;
+    font-weight: 300;
+    font-size: 28px;
+  }
+  
+  .ftduncan {
+    margin-top: 20px;
+  }
+  
+  .iconStyle {
+    font-size: 37px;
+    color: #554736;
+    margin: 0px 10px;
+    border: 1px solid #554736;
+    border-radius: 18px;
+    padding: 5px;
+  }
+  

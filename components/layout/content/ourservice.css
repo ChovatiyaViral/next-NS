@@ -1,0 +1,74 @@
+.colDiv {
+    position: absolute;
+    width: 385px;
+    height: 468.55px;
+    left: 94px;
+    top: 4822px;
+    background: rgba(255, 255, 255, 0.71);
+    backdrop-filter: blur(10px);
+}
+
+.colDiv h5 {
+    position: absolute;
+    width: 117.38px;
+    height: 13.72px;
+    left: 135px;
+    top: 2rem;
+    padding-top: 2rem;
+    font-family: 'Gill Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 113%;
+    text-align: center;
+    text-transform: capitalize;
+    color: #6A83DB;
+}
+
+.colDiv h1 {
+    width: 296.19px;
+    height: 48.56px;
+    padding-bottom: 50px;
+    padding-top: 25px;
+    font-family: 'Gill Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 80%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.txtList {
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    letter-spacing: -0.04em;
+    color: #6A83DB;
+    position: relative;
+    width: 206.27px;
+}
+
+.singleTXT {
+    width: 267.8px;
+    height: 50.94px;
+    padding-top: 2rem;
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    list-style: disc;
+    line-height: 113%;
+    text-align: center;
+    text-transform: capitalize;
+    color: #6A83DB;
+
+}
+
+.ourservesbg{
+    background-image: url(/assets/images/leaf-our-servers-section.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+}

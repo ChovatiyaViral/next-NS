@@ -1,0 +1,118 @@
+.rightCol {
+  margin: 0px auto;
+}
+
+.fullHeightSection1 {
+  overflow-y: hidden;
+}
+
+
+@media only screen and (max-width: 1024px) {
+
+  .indian_summner_gin_div div {
+    width: 40vw !important;
+  }
+
+  .indian_summner_gin_div>a button {
+    margin-top: 0px !important;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .indian_summner_gin_div div {
+    font-size: 14px;
+  }
+
+  .indian_summner_gin_div h2 {
+    font-size: 50px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* .rightCol {
+    transform: translateY(-50px);
+  } */
+
+  .indian_summner_gin_div {
+    z-index: 9;
+  }
+
+  .upperRightDiv {
+    margin-top: 35px !important;
+    text-align: center;
+  }
+
+  .fullHeightSection1 {
+    display: grid;
+  }
+
+  .fullHeightSection3 {
+    display: block;
+    height: 71rem;
+    height: 960px;
+  }
+
+  .fullHeightSection3 {
+    display: inline-flex;
+    flex-direction: column-reverse;
+    margin-bottom: 45px;
+    position: relative;
+  }
+
+  .fullHeightSection3 .rightCol {
+    width: 67vw;
+    margin-top: 47px;
+    margin-bottom: 14rem;
+  }
+
+  .indian_summner_gin_div h2 {
+    font-size: 34px;
+  }
+
+  .indian_summner_gin_div {
+    width: 100%;
+    background: linear-gradient(180deg, rgba(254, 245, 255, 0) 0%, #FEF5FF 57.29%);
+    position: absolute;
+    height: 796px;
+    bottom: 0px;
+    justify-content: flex-end;
+  }
+
+  .indian_summner_gin_div h4 {
+    font-size: 12.5px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: -0.06em;
+    color: #6A83DB !important;
+    margin-bottom: 14px;
+  }
+
+  .indian_summner_gin_div>a {
+    padding: 0px;
+  }
+
+  .indian_summner_gin_div>a button {
+    margin: 50px 0px 55px !important;
+  }
+
+  .indian_summner_gin_div>div {
+    margin-bottom: 0px;
+  }
+
+  .indian_summner_gin_div div {
+    width: 71vw !important;
+    text-align: center !important;
+  }
+}
+
+
+@media only screen and (max-width: 640px) {
+
+  .fullHeightSection3 {
+    margin-top: 20px;
+  }
+
+  .fullHeightSection3 .rightCol {
+    margin-bottom: 18rem;
+  }
+}

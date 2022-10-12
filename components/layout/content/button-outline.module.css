@@ -1,0 +1,38 @@
+
+.button {
+  background: linear-gradient(254.52deg, #FEAB61 -5.55%, #FC7618 95.02%);
+  border-radius: 0px;
+
+  color: white;
+  font-family: Montserrat;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: 0.11em;
+  text-align: center;
+  text-transform: uppercase;
+
+  /* padding: 20px 12px; */
+
+  height: 56px;
+  width: 217px;
+
+  margin-top: 102px;
+}
+.textWrapper {
+  background: #fff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: calc(100% - 2px);
+  width: calc(100% - 2px);
+
+  margin: 1px;
+}
+.textGradient {
+  background: -webkit-linear-gradient(left, #FC7618, #FEAB61);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

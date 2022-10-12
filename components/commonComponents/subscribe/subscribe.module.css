@@ -1,0 +1,134 @@
+.subscribeSection {
+  /* background-image: url(/assets/images/subscribe-saffron-infused.png); */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  height: calc((642/1920) * 100vw);
+}
+
+.subscribeSectionInfo {
+  padding-left: 5vw;
+}
+
+.subscribeSectionTitle {
+  color: #6A83DB;
+  font-family: 'Roboto Condensed';
+  font-size: 97px;
+  font-weight: 700;
+  line-height: 103px;
+  letter-spacing: -0.005em;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.subscribeSectionText {
+  color: #6A83DB;
+  font-family: 'Roboto Condensed';
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.01em;
+  text-align: left;
+
+  margin-top: 39px;
+}
+
+.subscribeSectionButton {
+  background: #fff;
+  border-radius: 100px;
+
+  color: #6A83DB;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 600;
+  /* line-height: 24px; */
+  line-height: 1;
+  letter-spacing: 0.05em;
+  text-align: center;
+
+  margin-top: 25px;
+}
+
+@media only screen and (max-width: 1440px) {
+  .subscribeSectionTitle {
+    font-size: 85px;
+    line-height: 85px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .subscribeSectionTitle {
+    font-size: 66px;
+    line-height: 66px;
+  }
+}
+
+
+@media only screen and (max-width: 960px) {
+  .subscribeSectionTitle {
+    font-size: 50px;
+    line-height: 50px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .subscribeSectionTitle {
+    font-size: 36px;
+    line-height: 1;
+    margin-top: 35px;
+    text-align: center;
+  }
+
+  .subscribeSectionText {
+    font-size: 11px;
+    line-height: 1;
+    margin-top: 6px;
+    text-align: center;
+  }
+
+  .subscribeSectionText {
+    width: 100% !important;
+  }
+
+  .subscribeSection {
+    background-image: none;
+    height: 446px;
+  }
+
+  .subscribeSectionInfo {
+    display: block;
+    width: auto;
+    padding-left: 0px;
+    height: auto;
+  }
+
+  .subscribeSectionButton {
+    background: #6A83DB;
+    border-radius: 29px;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 24px auto 0px;
+  }
+
+  .subscribeSection {
+    background-image: none;
+    background: linear-gradient(11.89deg, #CCC8E3 0.29%, #E6E6E3 19.19%, #FFFFFF 45.69%);
+  }
+
+  .subscribeSectionInfoMobile {
+    background-image: url(/assets/images/subscribe-saffron-infused.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+    height: 242px;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .subscribeSectionTitle {
+    font-size: 26px;
+  }
+}

@@ -1,0 +1,58 @@
+.suggestionBg {
+    background-image: url(/assets/images/casked-strength-suggestions-bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top 120px center;
+
+    width: 100%;
+    height: 100%;
+}
+.suggestionBorder {
+    border: 2px solid #6A83DB;
+
+    margin-bottom: 2rem;
+    padding: calc((63/1920) * 100vh);
+
+    width: calc((884/1920) * 100vw);
+    height: calc((913/1920) * 100vw);
+}
+.suggestionImage {
+    width: calc((252/1920) * 100vw);
+    height: calc((571/1920) * 100vw);
+
+    position: relative;
+
+    margin-bottom: 4rem;
+}
+
+
+.volumeText {
+    color: #6A83DB;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 90%;
+    text-align: center;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    margin-bottom: 1.5rem;
+}
+
+.tasteSummaryText {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 90%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #6A83DB;
+}
+
+.buttonStyle {
+    background: #FEAF66;
+    border-radius: 33px;
+
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+
+    color: white;
+}

@@ -1,0 +1,138 @@
+.tastingNotesImageWrapper {
+  width: calc((662.3/1920) * 100vw);
+  height: calc((598.91/1920) * 100vw);
+
+  position: relative;
+}
+
+.tastingSection {
+  padding-top: 150px;
+}
+
+.tastingNotesItemIcon {
+  width: 50px;
+}
+
+.tastingNotesItemInfo {
+  margin: 0 20px 60px;
+  width: 100%;
+}
+
+.tastingNotesItemInfoTitle {
+  color: #878787;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 400;
+  /* line-height: 67px; */
+  line-height: 1.5;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.tastingNotesItemInfoDescription {
+  color: #7C7C7C;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.selectedNotes,
+.mobileNotes {
+  display: none;
+}
+
+@media screen and (max-width:960px) {
+  .tastingInnerSection {
+    flex-direction: column !important;
+    margin-bottom: 30px !important;
+  }
+
+  .mobileNotes {
+    display: block;
+    margin-top: -54px;
+  }
+
+  .firstDiv,
+  .lastDiv {
+    display: none;
+  }
+
+  .tastingNotesImageWrapper {
+    width: 388.82px !important;
+    height: 339.19px !important;
+    position: absolute;
+    top: 0px;
+    left: 46%;
+    right: 50%;
+    transform: translateX(-50%);
+  }
+
+  .tastingSection {
+    position: relative;
+    padding-top: 330px;
+  }
+
+  .selectedNotes {
+    display: flex;
+    gap: 8px;
+  }
+
+}
+
+@media screen and (max-width:768px) {
+
+  .tastingNotesItemInfoTitle {
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 16px;
+  }
+
+  .tastingNotesItemInfoDescription {
+    font-size: 14px;
+  }
+
+  .tastingNotesItemInfo {
+    margin: 0px 20px 24px;
+  }
+}
+
+@media screen and (max-width:640px) {
+
+  .mobileNotes {
+    margin-top: -94px;
+  }
+
+  .tastingNotesImageWrapper {
+    left: 45%;
+  }
+}
+
+@media screen and (max-width:400px) {
+
+  .tastingNotesImageWrapper {
+    width: 320px !important;
+    height: 320px !important;
+  }
+
+  .tastingNotesImageWrapper {
+    left: 38%;
+  }
+
+  .tastingSection {
+    padding-top: 295px;
+  }
+}
+
+@media screen and (max-width:280px) {
+  .tastingNotesImageWrapper {
+    width: 260px !important;
+    height: 260px !important;
+  }
+
+  .tastingSection {
+    padding-top: 238px;
+  }
+}

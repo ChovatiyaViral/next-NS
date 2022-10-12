@@ -1,0 +1,53 @@
+.vectorBg2 svg {
+    width: calc((351/1920)* 100vw);
+    margin-top: -66.7rem;
+    height: calc((804/1920)* 100vw);
+    margin-left: 48.5rem;
+  }
+
+.vectorBg3 svg {
+    width: calc((1834/1920)*100vw);
+    height: calc((443/1920)* 100vw);
+    margin-left: 5.3rem;
+    margin-bottom: -14rem;
+}
+
+@media only screen and (max-width: 767px) {
+    .vectorBg2 svg {
+        display: none;
+    }
+
+    .vectorBg3 svg {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .vectorBg2 svg {
+        margin-top: -41.4rem;
+        margin-left: 30.9rem;
+
+    }
+
+    .vectorBg3 svg {
+        margin-left: 3.3rem;
+        margin-bottom: -9rem;
+    }
+
+}
+
+@media only screen and (max-width: 1536px) {
+    .vectorBg2 svg {
+        width: calc((351/1920)* 100vw);
+        margin-top: -53.9rem;
+        height: calc((804/1920)* 100vw);
+        margin-left: 38.1rem;
+    }
+
+    .vectorBg3 svg {
+        width: calc((1813/1920)*100vw);
+        height: calc((443/1920)* 100vw);
+        margin-left: 4.3rem;
+        margin-bottom: -14rem;
+    }
+}

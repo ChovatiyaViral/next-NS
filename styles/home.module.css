@@ -1,0 +1,157 @@
+.topSection {
+  background-image: url(/assets/images/flower-bg-top.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom 200px center;
+}
+
+/* .vectorBg{
+  background: url('/assets/images/home-vector-bg.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top 320px left 33px;
+} */
+
+/* .vectorBg svg {
+  width: calc((930/1920)* 100vw);
+  margin-top: -38px;
+  height: 1619px;
+  margin-left: 150px;
+} */
+
+
+/* .ourStory {
+  margin-top: -90.5rem;
+  margin-bottom: 105px;
+} */
+
+.infoBlockSection1 {
+  padding-bottom: 84px;
+}
+
+.flavourWheel {
+  margin: 25px 0;
+  text-align: center;
+}
+
+.chart {
+  /* background: linear-gradient(163.45deg, #FAE7FA 8.84%, #FFF7EA 132.51%); */
+  /* transform: matrix(1, 0, 0, -1, 0, 0); */
+  /* width: 862px;
+  height: 854px; */
+  left: 936.7px;
+  top: 2878px;
+}
+
+
+.flavourWheelInfo {
+  margin: 39.5% 0 0;
+  text-align: center;
+}
+
+.flavourWheelInfo h2 {
+  width: 383px;
+  text-align: left;
+  line-height: 54px;
+  height: 52px;
+}
+
+.flavourWheelbg {
+  background-image: url(/assets/images/leaf-flavour-section.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+
+.orangeFlavourWheelbg {
+  background-image: url(/assets/images/orange-leaf-flavour-wheel.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+
+@media only screen and (max-width: 768px) {
+  .infoBlockSection1 {
+    padding-bottom: 20px;
+  }
+
+  .ourStory {
+    margin-top: 0rem;
+    margin-bottom: 0px;
+  }
+
+  .vectorBg2 svg {
+    display: none;
+  }
+
+  .vectorBg svg {
+    display: none;
+  }
+
+  .flavourWheelInfo {
+    margin-top: 80px;
+  }
+
+  .flavourWheel {
+    margin: 0px;
+    flex-direction: column-reverse !important;
+  }
+
+  .flavourWheelInfo div {
+    text-align: center !important;
+  }
+
+  .flavourWheelInfo h2 {
+    width: 200px;
+    text-align: center !important;
+  }
+
+  .flavourWheelInfo hr {
+    margin-top: 8px;
+    margin-bottom: 40px;
+  }
+
+  .flavourWheelbg {
+    background-image: url(/assets/images/leaf-flavour-section-mobile.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .infoBlockSection1 {
+    padding-top: 66px;
+    padding-bottom: 0px;
+  }
+}
+
+
+@media only screen and (max-width: 1200px) {
+  /* .ourStory {
+    margin-top: -75.7rem;
+  } */
+
+  .vectorBg svg {
+    margin-top: -21rem;
+  }
+}
+
+/* @media only screen and (max-width: 1536px) {
+  .vectorBg svg {
+    width: calc((930/1920)* 100vw);
+    margin-top: -203px;
+    height: 1619px;
+    margin-left: 109px;
+  }
+
+
+  .vectorBg2 svg {
+    width: calc((351/1920)* 100vw);
+    margin-top: -53.9rem;
+    height: calc((804/1920)* 100vw);
+    margin-left: 38.1rem;
+  }
+
+  .ourStory {
+    margin-top: -87.5rem;
+    margin-bottom: 105px;
+  }
+} */
